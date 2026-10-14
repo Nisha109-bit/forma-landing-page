@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f8f5" />
+  <meta name="description" content="A polished, responsive landing page demo with a fixed interactive navigation menu." />
+  <title>Forma — Make room for your next idea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Forma home"><span class="brand-mark" aria-hidden="true">f</span><span>forma</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">What we do</a>
+        <a class="nav-link" href="#stories">Stories</a>
+        <a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Independent creative studio · Est. 2018</p>
+        <h1 id="hero-title">Make room for<br />your next <span>big idea.</span></h1>
+        <p class="hero-description">We help ambitious people turn thoughtful ideas into brands and digital experiences that move things forward.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#about">Discover Forma <span aria-hidden="true">↗</span></a><a class="text-link" href="#services">See what we do <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-note"><div class="avatar-stack" aria-hidden="true"><span>J</span><span>M</span><span>A</span></div><span>Small team. <strong>Big-picture thinking.</strong></span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract colorful shapes representing creative ideas" role="img">
+        <div class="art-grain"></div><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="sun-shape"></div><div class="flower-shape"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="art-caption"><span>01 / 04</span><span>Ideas in motion</span><span class="caption-line"></span></div>
+        <div class="floating-card"><span class="card-spark">✳</span><span>Good things<br />start with a<br /><strong>little curiosity.</strong></span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> Scroll to explore</a>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-label"><span>01</span><span class="label-rule"></span><span>A little about us</span></div>
+      <div class="intro-content"><h2>We believe good design makes the complicated <em>feel simple.</em></h2><div class="intro-side"><p>Forma is an independent creative studio for people building what comes next. We bring strategy, design, and technology together to make brands feel more human.</p><a class="underlined-link" href="#contact">A bit more about us <span>↗</span></a></div></div>
+      <div class="stats-row"><div><strong>06</strong><span>Years making<br />meaningful things</span></div><div><strong>32</strong><span>Ideas brought<br />to life (and counting)</span></div><div><strong>12</strong><span>Good humans<br />on our team</span></div><p>Curious by nature.<br /><em>Thoughtful by design.</em></p></div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-label"><span>02</span><span class="label-rule"></span><span>How we can help</span></div>
+      <div class="services-heading"><h2>A good idea deserves<br />a <em>good team.</em></h2><p>From the first question to the final detail, we bring the right minds together to make the work matter.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01 — Strategy</span><div class="service-icon icon-strategy" aria-hidden="true"><span></span><span></span><span></span></div><h3>Find your<br />north star.</h3><p>Clear thinking for the opportunities ahead. We find the focus, story, and direction that make your next move count.</p><a href="#contact" aria-label="Learn about strategy">↗</a></article>
+        <article class="service-card card-lilac"><span class="service-number">02 — Identity</span><div class="service-icon icon-identity" aria-hidden="true"><span>f</span></div><h3>Look like<br />you mean it.</h3><p>Distinctive identities built on what makes you, you. Thoughtful systems with room to grow and play.</p><a href="#contact" aria-label="Learn about identity">↗</a></article>
+        <article class="service-card card-yellow"><span class="service-number">03 — Digital</span><div class="service-icon icon-digital" aria-hidden="true"><span></span></div><h3>Make it<br />happen online.</h3><p>Useful, welcoming digital experiences that bring your brand to life and make every interaction count.</p><a href="#contact" aria-label="Learn about digital">↗</a></article>
+      </div>
+    </section>
+
+    <section class="quote-section section" id="stories"><div class="quote-mark">“</div><blockquote>Forma helped us see our business differently — and gave us the confidence to take it somewhere new.</blockquote><div class="quote-credit"><span class="credit-avatar">R</span><span><strong>Riley Chen</strong><small>Founder, Goodkind Supply</small></span></div><div class="quote-decoration" aria-hidden="true">✳</div></section>
+
+    <section class="contact section" id="contact"><div class="contact-top"><div class="section-label"><span>03</span><span class="label-rule"></span><span>Have a good one?</span></div><span class="contact-spark" aria-hidden="true">✳</span></div><div class="contact-content"><h2>Let’s make<br /><em>something matter.</em></h2><div><p>Have a question, a big idea, or just want to say hello? We’d love to hear what you’re thinking.</p><a class="button button-dark" href="mailto:hello@forma.studio">Start a conversation <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">f</span><span>forma</span></a><span>Independent by nature. Better together.</span><a href="#top">Back to top ↑</a><small>© <span id="year"></span> Forma Studio</small></footer>
+</body>
+</html>
